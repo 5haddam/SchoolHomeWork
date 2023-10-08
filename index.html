@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Моя перша сторінка</title>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar-and-main-page {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    nav {
+      width: 200px;
+      padding: 0 25px;
+    }
+
+    main {
+      width: calc(100% - 200px);
+      padding: 0 25px;
+    }
+
+    header {
+      width: 100%;
+      height: 120px;
+      padding: 25px;
+    }
+
+    footer {
+      width: 100%;
+    }
+    footer > p {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 align="center">Головна сторінка</h1>
+    <h2 align="right">Слоган</h2>
+  </header>
+  <div class="navbar-and-main-page">
+    <nav>
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Інформація</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum beatae aspernatur, molestiae blanditiis nemo
+        odit fugiat, sequi est aut veniam nostrum voluptatum, dignissimos explicabo? Minus officia ut obcaecati aperiam
+        quos.</p>
+      <p align="right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis a ducimus voluptatem. Mollitia
+        harum omnis aliquam, aspernatur accusantium earum doloremque itaque hic quod, rerum deserunt praesentium
+        necessitatibus. Voluptatibus, ullam quod.</p>
+      <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam omnis deserunt
+        suscipit molestiae! Corrupti consequatur, doloribus assumenda libero laudantium alias suscipit ea beatae
+        explicabo veniam, eos optio facilis ipsum.</p>
+      <p align="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolorem, magni eos harum
+        dolorum suscipit labore necessitatibus. Debitis pariatur dicta enim, unde earum, quas explicabo, est itaque
+        consectetur dolores reiciendis.</p>
+      <p align="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus in dolore architecto, enim ut
+        earum quae dolores veniam itaque dignissimos ex inventore nesciunt nam exercitationem obcaecati sed. Nesciunt,
+        ex debitis.</p>
+    </main>
+  </div>
+  <footer>
+    <p>Copyright Example 2019</p>
+  </footer>
+</body>
+
+</html>
